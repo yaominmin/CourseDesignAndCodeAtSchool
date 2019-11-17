@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signup</class>
+ <widget class="QDialog" name="signup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>358</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>280</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> border-style:solid;  
+       background: transparent;  
+       background-color: rgb(85, 170, 255); 
+         font: 12pt &quot;微软雅黑&quot;;
+        
+        border-radius: 10px;  
+</string>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>280</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> border-style:solid;  
+       background: transparent;  
+       background-color: rgb(85, 170, 255); 
+         font: 12pt &quot;微软雅黑&quot;;
+        
+        border-radius: 10px;  
+</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>113</x>
+     <y>217</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/images/16.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>243</width>
+     <height>212</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">
+font: 12pt &quot;Arial&quot;;
+ </string>
+      </property>
+      <property name="text">
+       <string>用户名</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_id">
+      <property name="styleSheet">
+       <string notr="true">
+       border-style: solid; 
+       background: transparent;  
+       background-color:#FFFFFF; 
+         
+
+
+ 
+  font: 12pt &quot;微软雅黑&quot;;
+        
+        border-radius: 10px;  </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">
+
+font: 12pt &quot;Arial&quot;;
+ </string>
+      </property>
+      <property name="text">
+       <string>密码</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_password">
+      <property name="styleSheet">
+       <string notr="true">
+       border-style: solid; 
+       background: transparent;  
+       background-color:#FFFFFF; 
+         
+
+
+ 
+  font: 12pt &quot;微软雅黑&quot;;
+        
+        border-radius: 10px;  </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">
+font: 12pt &quot;Arial&quot;;
+
+font: 12pt &quot;Arial&quot;;
+ </string>
+      </property>
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_username">
+      <property name="styleSheet">
+       <string notr="true">
+       border-style: solid; 
+       background: transparent;  
+       background-color:#FFFFFF; 
+         
+
+
+ 
+  font: 12pt &quot;微软雅黑&quot;;
+        
+        border-radius: 10px;  </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">
+font: 12pt &quot;Arial&quot;;
+ </string>
+      </property>
+      <property name="text">
+       <string>身份证</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_useridnum">
+      <property name="styleSheet">
+       <string notr="true">
+       border-style: solid; 
+       background: transparent;  
+       background-color:#FFFFFF; 
+         
+
+
+ 
+  font: 12pt &quot;微软雅黑&quot;;
+        
+        border-radius: 10px;  </string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">
+font: 12pt &quot;Arial&quot;;
+ </string>
+      </property>
+      <property name="text">
+       <string>性别</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QComboBox" name="comboBox_usersex">
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid gray;
+font: 14pt &quot;Arial&quot;;
+border-radius: 3px;
+</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>男</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>女</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">
+font: 12pt &quot;Arial&quot;;
+ </string>
+      </property>
+      <property name="text">
+       <string>手机号</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEdit_usertel">
+      <property name="styleSheet">
+       <string notr="true">
+       border-style: solid; 
+       background: transparent;  
+       background-color:#FFFFFF; 
+         
+
+
+ 
+  font: 12pt &quot;微软雅黑&quot;;
+        
+        border-radius: 10px;  </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>label_7</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>verticalLayoutWidget_2</zorder>
+  <zorder>label</zorder>
+  <zorder>horizontalSpacer</zorder>
+  <zorder>horizontalSpacer_2</zorder>
+  <zorder>horizontalSpacer_3</zorder>
+  <zorder>horizontalSpacer_4</zorder>
+  <zorder>verticalSpacer</zorder>
+  <zorder>verticalSpacer_2</zorder>
+  <zorder>verticalSpacer_3</zorder>
+  <zorder>horizontalSpacer_5</zorder>
+  <zorder>verticalSpacer_4</zorder>
+  <zorder>verticalSpacer_5</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>851</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>经典繁毛楷</family>
+      <pointsize>50</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>图书馆借还书管理系统</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>10</y>
+      <width>301</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>120</y>
+      <width>961</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>20</y>
+       <width>361</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>10</y>
+       <width>111</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>检索</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>10</y>
+       <width>151</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>清空表格</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>按书名</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>按ISBN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>按作者</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>按出版社</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>1191</width>
+      <height>343</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustIgnored</enum>
+    </property>
+    <property name="rowCount">
+     <number>20</number>
+    </property>
+    <property name="columnCount">
+     <number>7</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>书名</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ISBN</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>作者</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>出版社</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>可借数量</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>关键字</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>简介</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>迷你简稚艺</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>570</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>迷你简稚艺</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>借阅图书</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>550</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>570</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>迷你简稚艺</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>续借/还书</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>550</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>275</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>540</y>
+      <width>540</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1250</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>读者管理</string>
+    </property>
+    <addaction name="addreader"/>
+    <addaction name="separator"/>
+    <addaction name="managereaders"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>图书管理</string>
+    </property>
+    <addaction name="addbook"/>
+    <addaction name="separator"/>
+    <addaction name="managebooks"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>个人中心</string>
+    </property>
+    <addaction name="modifyinfo"/>
+    <addaction name="separator"/>
+    <addaction name="modifypassword"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>帮助中心</string>
+    </property>
+    <addaction name="help"/>
+    <addaction name="separator"/>
+    <addaction name="about"/>
+   </widget>
+   <addaction name="menu_3"/>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="addreader">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/image/icon/cs1.ico</normaloff>:/image/icon/cs1.ico</iconset>
+   </property>
+   <property name="text">
+    <string>添加读者</string>
+   </property>
+   <property name="iconText">
+    <string>添加读者</string>
+   </property>
+   <property name="toolTip">
+    <string>添加读者</string>
+   </property>
+  </action>
+  <action name="managereaders">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/image/icon/cs19.ico</normaloff>:/image/icon/cs19.ico</iconset>
+   </property>
+   <property name="text">
+    <string>管理读者</string>
+   </property>
+  </action>
+  <action name="addbook">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/image/icon/cs0.ico</normaloff>:/image/icon/cs0.ico</iconset>
+   </property>
+   <property name="text">
+    <string>添加图书</string>
+   </property>
+  </action>
+  <action name="modifyinfo">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/image/icon/cs12.ico</normaloff>:/image/icon/cs12.ico</iconset>
+   </property>
+   <property name="text">
+    <string>信息修改</string>
+   </property>
+   <property name="iconText">
+    <string>更改绑定手机</string>
+   </property>
+  </action>
+  <action name="modifypassword">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/image/icon/cs11.ico</normaloff>:/image/icon/cs11.ico</iconset>
+   </property>
+   <property name="text">
+    <string>密码更改</string>
+   </property>
+   <property name="iconText">
+    <string>更改密码</string>
+   </property>
+  </action>
+  <action name="help">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/image/icon/cs15.ico</normaloff>:/image/icon/cs15.ico</iconset>
+   </property>
+   <property name="text">
+    <string>帮助</string>
+   </property>
+  </action>
+  <action name="about">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/image/icon/cs16.ico</normaloff>:/image/icon/cs16.ico</iconset>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="managebooks">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/image/icon/3.ico</normaloff>:/image/icon/3.ico</iconset>
+   </property>
+   <property name="text">
+    <string>管理书籍</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>comboBox</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>pushButton_5</tabstop>
+  <tabstop>tableWidget</tabstop>
+  <tabstop>pushButton_6</tabstop>
+  <tabstop>pushButton_7</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_8</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>pushButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
